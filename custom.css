@@ -32,13 +32,12 @@ nav .brand-logo {
   padding-top: 50px;
 }
 
-.dark-red-font {
-  font-weight: bold;
+.text-light-grey {
   color: #393F44;
 }
 
-.text-light-grey {
-  color: #393F44;
+.text-red-accent {
+  color: #b71c1c;
 }
 
 footer .copyright {
