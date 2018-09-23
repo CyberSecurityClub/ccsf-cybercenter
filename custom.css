@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+.slider-title {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.slider-subtitle {
+  text-shadow: 3px 3px #000000;
+}
+
+main {
+  flex: 1 0 auto;
+}
+   
+nav .brand-logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidenav {
+  padding-top: 3rem;
+}
+
+.title-header {
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.dark-red-font {
+  font-weight: bold;
+  color: #393F44;
+}
+
+.text-light-grey {
+  color: #393F44;
+}
+
+footer .copyright {
+  color: #5D0F0D;
+  font-size: small;
+}
+
