@@ -26,3 +26,7 @@ M.Parallax.init(parallax, {});
 // modal program
 const modalProgram = document.querySelector('#program');
 M.Modal.init(modalProgram, {});
+
+// modal resources
+const modalResources = document.querySelector('#resources');
+M.Modal.init(modalResources, {});
