@@ -10,8 +10,8 @@ body {
   font-weight: bold;
 }
 
-.slider-subtitle {
-  text-shadow: 3px 3px #000000;
+.text-dark-shadow {
+  text-shadow: -2px 1px 6px #000000;
 }
 
 main {
