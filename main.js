@@ -22,3 +22,7 @@ M.ScrollSpy.init(scrollspy, {});
 // parallax
 const parallax = document.querySelectorAll('.parallax');
 M.Parallax.init(parallax, {});
+
+// modal program
+const modalProgram = document.querySelector('#program');
+M.Modal.init(modalProgram, {});

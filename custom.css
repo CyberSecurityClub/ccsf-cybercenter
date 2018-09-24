@@ -56,6 +56,14 @@ img.responsive-img {
   font-weight: bold;
 }
 
+.modal-header {
+  font-weight: bold;
+}
+
+.modal-hover-list:hover {
+  color: #42a5f5;
+}
+
 footer .copyright {
   /* color: #5D0F0D; */
   font-size: small;
