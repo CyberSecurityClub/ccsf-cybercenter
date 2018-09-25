@@ -11,10 +11,6 @@ M.Slider.init(slider, {
   interval: 8000 // 6 seconds
 });
 
-// material boxed
-const materialboxed = document.querySelectorAll('.materialboxed');
-M.Materialbox.init(materialboxed, {});
-
 // scrollspy
 const scrollspy = document.querySelectorAll('.scrollspy');
 M.ScrollSpy.init(scrollspy, {});
