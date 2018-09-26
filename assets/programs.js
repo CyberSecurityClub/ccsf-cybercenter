@@ -23,7 +23,7 @@ progDiv.innerHTML = `
       </div>
       <div class="col s12 l6 offset-l1 pull-l5 right-align">
         <h3 class="title-header text-light-grey">Cybersecurity Path</h3>
-        <p class="text-light-grey">We provide academic counseling services to insure our students success in their pursuit to become cybersecurity experts</p>
+        <p class="text-light-grey">We provide academic counseling services to assure our students success in their pursuit to become cybersecurity experts</p>
         <a href="https://www.ccsf.edu/Departments/Computer_Networking_and_Information_Technology/about.html#couns3" class="red darken-4 hoverable btn" target="blank">Learn More</a>
       </div>
       </div>
