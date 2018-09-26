@@ -14,10 +14,9 @@ students.innerHTML = `
           <div class="card hoverable">
             <div class="card-image">
               <img src="img/cyberclub.jpg" alt="">
-              <span class="card-title text-dark-shadow hide-on-med-only text-light-grey">Cyber Security Club</span>
             </div>
             <div class="card-content text-light-grey">
-              <p class="card-title hide-on-small-only hide-on-large-only text-light-grey">Cyber Security Club</p>
+              <p class="card-title text-light-grey">Cyber Security Club</p>
               The Cyber Security Club is a student-run organization at City College of San Francisco.
             </div>
           </div>
@@ -28,10 +27,9 @@ students.innerHTML = `
           <div class="card hoverable">
             <div class="card-image">
               <img src="img/competition.jpg" alt="">
-              <span class="card-title text-dark-shadow hide-on-med-only text-light-grey">Competition Team</span>
             </div>
             <div class="card-content text-light-grey">
-              <p class="card-title hide-on-small-only hide-on-large-only text-light-grey">Competition Team</p>
+              <p class="card-title text-light-grey">Competition Team</p>
               Train students for competitions, CTF and the Collegiate Cyberdefense Competition (CCDC).
             </div>
           </div>
@@ -42,10 +40,9 @@ students.innerHTML = `
           <div class="card hoverable">
             <div class="card-image">
               <img src="img/cybercamp.jpg" alt="">
-              <span class="card-title text-dark-shadow hide-on-med-only text-light-grey">Cyber Camp</span>
             </div>
             <div class="card-content text-light-grey">
-              <p class="card-title hide-on-small-only hide-on-large-only text-light-grey">Cyber Camp</p>
+              <p class="card-title text-light-grey">Cyber Camp</p>
               Trains high school students on cybersecurity. A week of training in cybersecurity.
             </div>
           </div>
