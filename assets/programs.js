@@ -13,7 +13,7 @@ progDiv.innerHTML = `
       </div>
       <div class="col s12 l6 offset-l1">
         <h3 class="title-header text-light-grey">Programs</h3>
-        <p class="text-light-grey">A.S. Degree Programs, Cybersecurity Certificate Programs and offering a range of courses in Cisco Academy, Network Infrastructure and Administration, Cybersecurity, Tech Support for Windows and Mac and Front-End Web Development</p>
+        <p class="text-light-grey">A.S. Degree Programs, Cybersecurity Certificate Programs and offering a range of courses in Cisco Academy, Network Infrastructure and Administration, Cybersecurity, Tech Support for Windows and Mac and Information Security Analyst Apprenticeship Program</p>
         <a data-target="program" class="red darken-4 hoverable btn modal-trigger" target="blank">Learn More</a>
       </div>
       </div>
