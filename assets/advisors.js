@@ -18,7 +18,8 @@ advisorsDiv.innerHTML = `
             <div class="card-stacked">
               <div class="card-content">
                 <h5 class="text-red-accent">Richard Wu</h5>
-                <p class="text-light-grey">CNIT, Instructor</p>
+                <p class="text-light-grey">Cybersecurity Instructor</p>
+                <p>rwu@ccsf.edu</p>
               </div>
             </div>
           </div>
@@ -33,7 +34,8 @@ advisorsDiv.innerHTML = `
             <div class="card-stacked">
               <div class="card-content">
                 <h5 class="text-red-accent">Sam Bowne</h5>
-                <p class="text-light-grey">CNIT, Instructor</p>
+                <p class="text-light-grey">Cybersecurity Instructor</p>
+                <p>sbowne@ccsf.edu</p>
               </div>
             </div>
           </div>
