@@ -43,6 +43,17 @@ nav .brand-logo {
   padding-top: 3rem;
 }
 
+.logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.logo>img {
+  vertical-align: middle;
+  padding-right: 6px;
+  width: 55px;
+}
+
 /* ===============================
 SLIDER SECTION 
 ================================== */
