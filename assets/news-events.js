@@ -10,7 +10,7 @@ newsEventsDiv.innerHTML = `
   <div class="container">
     <div class="row news-events-row-styling">
       <div class="col s12 m6">
-        <a href="https://samsclass.info/newsr.shtml" target="blank">
+		<a class="modal-trigger" href="#newsModal">
           <div class="card-panel hoverable">
             <i class="material-icons large red-text text-darken-4">
               insert_comment
@@ -21,7 +21,7 @@ newsEventsDiv.innerHTML = `
         </a>
       </div>
       <div class="col s12 m6">
-        <a href="https://samsclass.info/"target="blank">
+        <a href="https://samsclass.info/#events" target="blank">
           <div class="card-panel hoverable">
             <i class="material-icons large red-text text-darken-4">
               event
@@ -32,6 +32,28 @@ newsEventsDiv.innerHTML = `
         </a>
       </div>
     </div>
+  </div>
+  
+  <!-- News Modal -->
+  <div id="newsModal" class="modal news-modal-size">
+  <div class="modal-content">
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a id="firstTab" class="active" href="#newsTab1">Internal News</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#newsTab2">External News</a>
+          </li>
+        </ul>
+      </div>
+      <div id="newsTab1" class="col s12">TBD</div>
+      <div id="newsTab2" class="col s12">
+        <iframe src="https://samsclass.info/newsr.shtml" height="100%" style="width:100%; height:400px;"><!--TBD: Will fix -->
+      </div>
+    </div>
+  </div>
   </div>
 `;
 

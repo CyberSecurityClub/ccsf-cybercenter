@@ -10,7 +10,7 @@ students.innerHTML = `
     <div class="row">
       <h3 class="title-header text-light-grey center-align">Students</h3>
       <div class="col s12 m4">
-        <a href="https://aeimskei.github.io/cyber-security-club/" target="blank">
+        <a href="https://cybersecurityclub.github.io/cyber-security-club/" target="blank">
           <div class="card hoverable">
             <div class="card-image">
               <img src="img/cyberclub.jpg" alt="">
@@ -36,7 +36,7 @@ students.innerHTML = `
         </a>
       </div>
       <div class="col s12 m4">
-        <a href="https://aeimskei.github.io/cyber-security-club/cybercamp.html" target="blank">
+        <a href="https://cybersecurityclub.github.io/cyber-security-club/cybercamp.html" target="blank">
           <div class="card hoverable">
             <div class="card-image">
               <img src="img/cybercamp.jpg" alt="">
