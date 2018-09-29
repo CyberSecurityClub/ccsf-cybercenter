@@ -31,8 +31,8 @@ partnersDiv.innerHTML = `
         </a>
       </div>
       <div class="col s2">
-      <a href="http://www.juniper.net/us/en/" target="blank">
-        <img src="img/juniper-logo.png" class="responsive-img partner-img" alt="">
+      <a href="https://aws.amazon.com/" target="blank">
+        <img src="img/amazon-aws-logo.png" class="responsive-img partner-img" alt="">
       </a>
       </div>
       <div class="col s2">
@@ -60,17 +60,17 @@ partnersDiv.innerHTML = `
         </a>
       </div>
       <div class="col s2">
-        <a href="#" target="blank">
+        <a href="https://www.netdevgroup.com/products/" target="blank">
           <img src="img/ndg-netlab-logo.png" class="responsive-img partner-img" alt="">
         </a>
       </div>
       <div class="col s2">
-        <a href="#" target="blank">
+        <a href="https://www.nationalccdc.org/" target="blank">
           <img src="img/ccdc-logo.png" class="responsive-img partner-img" alt="">
         </a>
       </div>
       <div class="col s2">
-        <a href="#" target="blank">
+        <a href="https://nationalcptc.org/" target="blank">
           <img src="img/cptc-logo.jpg" class="responsive-img partner-img" alt="">
         </a>
       </div>
@@ -110,8 +110,8 @@ partnersDiv.innerHTML = `
         </a>
       </div>
       <div class="col s6">
-        <a href="http://www.juniper.net/us/en/" target="blank">
-          <img src="img/juniper-logo.png" class="responsive-img partner-img-mobile" alt="">
+        <a href="https://aws.amazon.com/" target="blank">
+          <img src="img/amazon-aws-logo.png" class="responsive-img partner-img-mobile" alt="">
         </a>
       </div>
     </div>
@@ -134,17 +134,17 @@ partnersDiv.innerHTML = `
         </a>
       </div>
       <div class="col s6">
-        <a href="#" target="blank">
+        <a href="https://www.netdevgroup.com/products/" target="blank">
           <img src="img/ndg-netlab-logo.png" class="responsive-img partner-img-mobile" alt="">
         </a>
       </div>
       <div class="col s6">
-        <a href="#" target="blank">
+        <a href="https://www.nationalccdc.org/" target="blank">
           <img src="img/ccdc-logo.png" class="responsive-img partner-img-mobile" alt="">
         </a>
       </div>
       <div class="col s6">
-        <a href="#" target="blank">
+        <a href="https://nationalcptc.org/" target="blank">
           <img src="img/cptc-logo.jpg" class="responsive-img partner-img-mobile" alt="">
         </a>
       </div>
