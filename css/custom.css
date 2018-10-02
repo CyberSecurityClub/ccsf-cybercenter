@@ -122,8 +122,10 @@ NEWS & EVENTS SECTION
 }
 
 .news-modal-size {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  overflow: visible;
+  max-height:100%
 }
 
 /* ===============================

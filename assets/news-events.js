@@ -48,9 +48,11 @@ newsEventsDiv.innerHTML = `
           </li>
         </ul>
       </div>
-      <div id="newsTab1" class="col s12">TBD</div>
+      <div id="newsTab1" class="col s12">
+		<iframe src="https://drive.google.com/file/d/1KfMr7aoxUxucXnvd2v5U2lD3tKSDFJTZ/preview" width="100%" height="800px"></iframe>
+	 </div>
       <div id="newsTab2" class="col s12">
-        <iframe src="https://samsclass.info/newsr.shtml" height="100%" style="width:100%; height:400px;"><!--TBD: Will fix -->
+        <iframe src="https://samsclass.info/newsr.shtml" height="100%" style="width:100%; height:800px;"><!--TBD: Will fix -->
       </div>
     </div>
   </div>
