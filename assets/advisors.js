@@ -42,6 +42,9 @@ advisorsDiv.innerHTML = `
         </a>
       </div>
     </div>
+    <div class="row center-align">
+    <a class="grey darken-2 hoverable btn modal-trigger" href="https://www.ccsf.edu/Departments/Computer_Networking_and_Information_Technology/AdvisoryBoardMeeting.pdf" target="blank">External Board of Advisors</a>
+    </div>
   </div>
 `;
 
