@@ -7,7 +7,7 @@ footerDiv.innerHTML = `
     <div class="col l6 s12">
       <h5 class="white-text">Contact Us</h5>
       <p class="grey-text text-lighten-4">
-      Richard Wu<br/>
+      Richard Wu<br/>Director of CCSF Cyber Center<br/>
       <a href="https://maps.google.com/?q=50+Phelan+Ave,+Room+S107+San+Francisco,+CA+94112&entry=gmail&source=g" class="grey-text text-lighten-4" target="blank">50 Phelan Ave, Room S107, San Francisco, CA</a><br/>
       TEL: (415) 239-3594<br/>
       <a href="mailto:rwu@ccsf.edu" class="grey-text text-lighten-4">rwu@ccsf.edu</p></a>
