@@ -49,7 +49,15 @@ newsEventsDiv.innerHTML = `
         </ul>
       </div>
       <div id="newsTab1" class="col s12">
-		<iframe src="https://drive.google.com/file/d/1KfMr7aoxUxucXnvd2v5U2lD3tKSDFJTZ/preview" width="100%" height="800px"></iframe>
+	     <div class="collection">
+			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1jm64EPzpQdkwitiCINEnKWqFPJUq7ACL/preview";' class="collection-item ">Cyber Security Club - September Updates 2018</a>
+			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1EQJayJKtE58ZWCSTcDg8Y8r_K3HLqtGE/preview";' class="collection-item ">Cyber Security Club - September Newsletter 2018</a>
+			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1i4TptTmUKjiPUR176HbX00-TwiVWf9ed/preview";' class="collection-item ">Cyber Security Club - October Updates 2018</a>
+			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1KfMr7aoxUxucXnvd2v5U2lD3tKSDFJTZ/preview";' class="collection-item ">Cyber Security Club - October Newsletter 2018</a>
+			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1OuXDLI7Sa8njgCGa17ysTbADcg1H9PaD/preview";' class="collection-item ">Cyber Security Club - August Updates 2018</a>
+			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1x-KlpLQPuqUz7gVJfvptZ4DtXlaBVCTI/preview";' class="collection-item ">Cyber Security Club - August Newsletter 2018</a>
+		</div>
+		<iframe id="internalNewPreview" src="https://drive.google.com/file/d/1jm64EPzpQdkwitiCINEnKWqFPJUq7ACL/preview" width="100%" height="500px"></iframe>
 	 </div>
       <div id="newsTab2" class="col s12">
         <iframe src="https://samsclass.info/newsr.shtml" height="100%" style="width:100%; height:800px;"><!--TBD: Will fix -->
