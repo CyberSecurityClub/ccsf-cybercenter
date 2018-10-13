@@ -32,3 +32,5 @@ const newsModal = document.querySelector('#newsModal');
 M.Modal.init(newsModal, {});
 const tabs = document.querySelector('.tabs');
 M.Tabs.init(tabs, {});
+const newsSelect = document.querySelector('select');
+M.FormSelect.init(newsSelect, {});

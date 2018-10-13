@@ -49,18 +49,35 @@ newsEventsDiv.innerHTML = `
         </ul>
       </div>
       <div id="newsTab1" class="col s12">
-	     <div class="collection">
-			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1i4TptTmUKjiPUR176HbX00-TwiVWf9ed/preview";' class="collection-item ">Cyber Security Club - October Updates 2018</a>
-			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1KfMr7aoxUxucXnvd2v5U2lD3tKSDFJTZ/preview";' class="collection-item ">Cyber Security Club - October Newsletter 2018</a>
-			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1jm64EPzpQdkwitiCINEnKWqFPJUq7ACL/preview";' class="collection-item ">Cyber Security Club - September Updates 2018</a>
-			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1EQJayJKtE58ZWCSTcDg8Y8r_K3HLqtGE/preview";' class="collection-item ">Cyber Security Club - September Newsletter 2018</a>
-			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1OuXDLI7Sa8njgCGa17ysTbADcg1H9PaD/preview";' class="collection-item ">Cyber Security Club - August Updates 2018</a>
-			<a href="#!" onClick='document.getElementById("internalNewPreview").src="https://drive.google.com/file/d/1x-KlpLQPuqUz7gVJfvptZ4DtXlaBVCTI/preview";' class="collection-item ">Cyber Security Club - August Newsletter 2018</a>
+		<!-- Desktop View -->
+	     <div class="input-field col s12 hide-on-med-and-down">
+			<select id="newsSelection" onchange="setiFrame(this);">
+				<option value="0" selected> Cyber Security Club - October Updates 2018</option>
+				<option value="1">Cyber Security Club - October Newsletter 2018</option>
+				<option value="2">Cyber Security Club - September Updates 2018</option>
+				<option value="3">Cyber Security Club - September Newsletter 2018</option>
+				<option value="4">Cyber Security Club - August Updates 2018</option>
+				<option value="5">Cyber Security Club - August Newsletter 2018</option>
+			</select>
 		</div>
-		<iframe id="internalNewPreview" src="https://drive.google.com/file/d/1i4TptTmUKjiPUR176HbX00-TwiVWf9ed/preview" width="100%" height="500px"></iframe>
+		<iframe id="internalNewsPreview" class="hide-on-med-and-down" src="https://drive.google.com/file/d/1i4TptTmUKjiPUR176HbX00-TwiVWf9ed/preview" width="100%" height="700px"></iframe>
+		<!-- Mobile View -->
+		<div class="collection hide-on-large-only">
+			<a href="https://drive.google.com/file/d/1i4TptTmUKjiPUR176HbX00-TwiVWf9ed/preview" class="collection-item">Cyber Security Club - October Updates 2018</a>
+			<a href="https://drive.google.com/file/d/1KfMr7aoxUxucXnvd2v5U2lD3tKSDFJTZ/preview" class="collection-item">Cyber Security Club - October Newsletter 2018</a>
+			<a href="https://drive.google.com/file/d/1jm64EPzpQdkwitiCINEnKWqFPJUq7ACL/preview" class="collection-item">Cyber Security Club - September Updates 2018</a>
+			<a href="https://drive.google.com/file/d/1EQJayJKtE58ZWCSTcDg8Y8r_K3HLqtGE/preview" class="collection-item">Cyber Security Club - September Newsletter 2018</a>
+			<a href="https://drive.google.com/file/d/1OuXDLI7Sa8njgCGa17ysTbADcg1H9PaD/preview" class="collection-item">Cyber Security Club - August Updates 2018</a>
+			<a href="https://drive.google.com/file/d/1x-KlpLQPuqUz7gVJfvptZ4DtXlaBVCTI/preview" class="collection-item">Cyber Security Club - August Newsletter 2018</a>
+		</div>
 	 </div>
       <div id="newsTab2" class="col s12">
-        <iframe src="https://samsclass.info/newsr.shtml" height="100%" style="width:100%; height:800px;"><!--TBD: Will fix -->
+		<!-- Desktop View -->
+        <iframe src="https://samsclass.info/newsr.shtml" class="hide-on-med-and-down" height="100%" style="width:100%; height:800px;"></iframe><!--TBD: Will fix -->
+		<!-- Mobile View -->
+		<div class="collection hide-on-large-only">
+			<a href="https://samsclass.info/newsr.shtml" class="collection-item">External Security News</a>
+		</div>
       </div>
     </div>
   </div>
@@ -68,3 +85,16 @@ newsEventsDiv.innerHTML = `
 `;
 
 newsEvents.appendChild(newsEventsDiv);
+
+var links = [
+	"https://drive.google.com/file/d/1i4TptTmUKjiPUR176HbX00-TwiVWf9ed/preview",	//October Updates
+	"https://drive.google.com/file/d/1KfMr7aoxUxucXnvd2v5U2lD3tKSDFJTZ/preview",	//October Newsletter
+	"https://drive.google.com/file/d/1jm64EPzpQdkwitiCINEnKWqFPJUq7ACL/preview",	//September Updates
+	"https://drive.google.com/file/d/1EQJayJKtE58ZWCSTcDg8Y8r_K3HLqtGE/preview",	//September Newsletter
+	"https://drive.google.com/file/d/1OuXDLI7Sa8njgCGa17ysTbADcg1H9PaD/preview",	//August Updates
+	"https://drive.google.com/file/d/1x-KlpLQPuqUz7gVJfvptZ4DtXlaBVCTI/preview"		//August Newsletter
+];
+
+function setiFrame(sel) {
+	document.getElementById('internalNewsPreview').src = links[sel.value];
+}
